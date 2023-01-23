@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nisi odit molestias illum ipsa dignissimos excepturi fugit expedita! Totam facilis soluta, sunt accusantium delectus eius consectetur aut alias aliquid modi.</p>
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="index.html" target="frame">Segunda página</a></li>
+        <li><a href="#">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nisi odit molestias illum ipsa dignissimos excepturi fugit expedita! Totam facilis soluta, sunt accusantium delectus eius consectetur aut alias aliquid modi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nisi odit molestias illum ipsa dignissimos excepturi fugit expedita! Totam facilis soluta, sunt accusantium delectus eius consectetur aut alias aliquid modi.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opções</h1> <img src='paulo.png' width='300px'>">
+        <p>Infelizmente o seu navegador não é compatível com isso!</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nisi odit molestias illum ipsa dignissimos excepturi fugit expedita! Totam facilis soluta, sunt accusantium delectus eius consectetur aut alias aliquid modi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nisi odit molestias illum ipsa dignissimos excepturi fugit expedita! Totam facilis soluta, sunt accusantium delectus eius consectetur aut alias aliquid modi.</p>
+</body>
+</html>

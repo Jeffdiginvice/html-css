@@ -2,3 +2,7 @@
 
 /* Aparelho em pé (portrait) */
 
+body {
+    background:  url(../imagens/cev-landscape.jpg);
+    background-position: center bottom;
+}

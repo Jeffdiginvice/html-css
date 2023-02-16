@@ -9,7 +9,7 @@
     box-sizing: border-box;/*para incluir a borda no calculo do tamanho*/
 }
 
-html {/*tireo o body para não ficar com barra de rolagem*/
+html {/*tirei o body para não ficar com barra de rolagem*/
     height: 100vh;
 }
 
@@ -31,7 +31,7 @@ main {
 h1 {
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 1 em;
     text-shadow: 2px 2px 2px black;
 }
 

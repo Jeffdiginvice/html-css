@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -36,9 +36,23 @@ menu > ul > li > a {
     color: white;
     border-top: 2px solid gray;
 }
+/*menu gurguer*/
+span#menu {
+    background-color: rgb(65, 62, 62);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    cursor: pointer;/*Vira uma mão quando passar por cima*/
+}
+
+span#menu:hover {
+    background-color: white;
+    color: black;
+}
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: rgb(128, 124, 124);
 }
 
 main {
@@ -46,7 +60,7 @@ main {
     background-color: white;
     margin: auto;
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px ;
     border-radius: 10px;
 }
 

@@ -2,6 +2,28 @@
 
 /*Todas as demais mídias*/
 
-@media print {
+/*Typical Device Breakpoints
+----------------------------*/
+
+/*IMPORTANTE PESQUISAR 
+PEQUENAS TELAS: até 600px
+Celular: de 600px até 768px
+Tablet: 769 até 992px
+Descktop: 993px até 1200px
+Grandes telas: acima de 1200px*/
+
+@media print {/**/
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){/*TABLETS*/
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){/*DESKTOP*/
+    
+}
+
+@media  and (min-width: 1200px) {/*GRRANDES TELAS*/
     
 }
